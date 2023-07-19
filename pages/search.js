@@ -21,6 +21,8 @@ export default function AdvancedSearch() {
   });
   const router = useRouter();
 
+  
+
   const submitForm = (data) => {
     let queryString = "";
     queryString += `searchBy=${encodeURIComponent(data.searchBy)}`;
@@ -81,9 +83,9 @@ export default function AdvancedSearch() {
                 {...register("geoLocation")}
               />
               <Form.Text className="form-label-muted">
-                Case-sensitive string (e.g., "Europe", "France", "Paris",
-                "China", "New York", etc.), with multiple values separated by
-                the "|" operator
+                Case-sensitive string (e.g.,  &quot;Europe&quot;,  &quot;France&quot;,  &quot;Paris&quot;,
+                 &quot;China&quot;,  &quot;New York&quot;, etc.), with multiple values separated by
+                the  &quot;| &quot; operator
               </Form.Text>
             </Form.Group>
           </Col>
@@ -97,9 +99,9 @@ export default function AdvancedSearch() {
                 {...register("medium")}
               />
               <Form.Text className="form-label-muted">
-                Case-sensitive string (e.g., "Ceramics", "Furniture",
-                "Paintings", "Sculpture", "Textiles", etc.), with multiple
-                values separated by the "|" operator
+                Case-sensitive string (e.g., &quot;Ceramics&quot;, &quot;Furniture&quot;,
+                &quot;Paintings&quot;, &quot;Sculpture&quot;, &quot;Textiles&quot;, etc.), with multiple
+                values separated by the &quot;|&quot; operator
               </Form.Text>
             </Form.Group>
           </Col>

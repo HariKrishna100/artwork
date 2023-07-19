@@ -3,8 +3,6 @@ import useSWR from "swr";
 import Error from "next/error";
 import Button from "react-bootstrap/Button";
 import { useState } from "react";
-import { useAtom } from "jotai";
-import { favouritesAtom } from "../store";
 
 export default function ArtworkCardDetail({ objectID }) {
   const { data, error } = useSWR(

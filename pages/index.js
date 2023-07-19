@@ -5,6 +5,7 @@
 *  (including web sites) or distributed to other students.
 * 
 *  Name: Harikrishna Paresh Patel Student ID: 1507390217 Date: 06/07/23
+*  Link: https://magenta-cheesecake-0faa25.netlify.app/
 *
 ********************************************************************************/ 
 
@@ -25,6 +26,7 @@ export default function Home() {
               width="100%"
               src="https://upload.wikimedia.org/wikipedia/commons/3/30/Metropolitan_Museum_of_Art_%28The_Met%29_-_Central_Park%2C_NYC.jpg"
               rounded
+              alt="Museum img"
             />
             <br />
             <br />
